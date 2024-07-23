@@ -11,10 +11,10 @@ import pandas as pd
 #한글폰트깨짐 해결책
 from matplotlib import font_manager, rc
 
-# 한글 폰트 경로 설정 (여기서는 Windows의 기본 한글 폰트 경로 예시)
-font_path = 'C:/Windows/Fonts/malgun.ttf'
-font = font_manager.FontProperties(fname=font_path).get_name()
-rc('font', family=font)
+# # 한글 폰트 경로 설정 (여기서는 Windows의 기본 한글 폰트 경로 예시)
+# font_path = 'C:/Windows/Fonts/malgun.ttf'
+# font = font_manager.FontProperties(fname=font_path).get_name()
+# rc('font', family=font)
 
 # caching
 # 인자가 바뀌지 않는 함수 실행 결과를 저장 후 크롬의 임시 저장 폴더에 저장 후 재사용
